@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.movie-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.movie-card h2 {
+    margin-top: 0;
+}
+.movie-card p {
+    color: #555;
+}
+header, footer {
+    background-color: darkred;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+header{
+    /* make footer sticky */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
